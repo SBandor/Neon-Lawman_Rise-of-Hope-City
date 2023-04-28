@@ -1,0 +1,12 @@
+fileFormatVersion: 2
+guid: 5e3b598dceb76724e917c35949c8a0d2
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - lataGrande01: {fileID: -2572815427700219962, guid: beb5a1283dde83c4c9997cf0fceb9d2a, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

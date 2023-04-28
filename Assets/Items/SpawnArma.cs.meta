@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 38cc6cdae2175e34d8fa83e56b1dcaff
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - cuchillo: {fileID: 6819558519045071251, guid: 1fa0f667f8581014284632cd09989edf, type: 3}
+  - botella: {fileID: 1406014879676472496, guid: 8c6ef75edb7f7b34ba8e7c4d27473dc6, type: 3}
+  - palo: {fileID: 1762173352584951828, guid: 14abc36eebf188f43b97350ebd781c0d, type: 3}
+  - porra: {fileID: 5406601918383063471, guid: f0a9e139306fa094c9cbe417e6df1a59, type: 3}
+  - tuberia: {fileID: 5253765606941629466, guid: 5497f292d0a715742bd9e23c441f9a91, type: 3}
+  - roca: {fileID: 7509517304175873865, guid: 3dc1464d1d02ccd4fbd32265991f5a75, type: 3}
+  - caja: {fileID: 1757575464299448265, guid: 4440c67e021723449a8ccd4941b51613, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

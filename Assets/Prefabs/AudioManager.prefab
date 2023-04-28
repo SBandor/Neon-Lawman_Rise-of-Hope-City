@@ -1,0 +1,139 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2832876724156574854
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2832876724156574852}
+  - component: {fileID: 2832876724156574853}
+  - component: {fileID: 2832876724156574851}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2832876724156574852
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2832876724156574854}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 3.7619052, y: -7.847638, z: -215.31602}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2832876724156574853
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2832876724156574854}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f2c0ff7c50d431f47b199a57832f615d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: Accept
+    clip: {fileID: 8300000, guid: 52842ab73106d124db3342311787661f, type: 3}
+    volume: 1
+    pitch: 0
+    source: {fileID: 0}
+  - name: Explosion
+    clip: {fileID: 8300000, guid: 125f6fb09a4a1d640895f21b8819579d, type: 3}
+    volume: 1
+    pitch: 0
+    source: {fileID: 0}
+  - name: FastReload
+    clip: {fileID: 8300000, guid: edaebf3b1f7e93b489e1d9850652601c, type: 3}
+    volume: 1
+    pitch: 0
+    source: {fileID: 0}
+  - name: Impact
+    clip: {fileID: 8300000, guid: 725bb9e5a59aa1e408d7899920192f7e, type: 3}
+    volume: 1
+    pitch: 0
+    source: {fileID: 0}
+  - name: ImpactLight
+    clip: {fileID: 8300000, guid: 7fc916b2b594a7648a595815f49fc50f, type: 3}
+    volume: 1
+    pitch: 0
+    source: {fileID: 0}
+  - name: ItemPick
+    clip: {fileID: 8300000, guid: af39bb589f410564fb3ba70666d14b8e, type: 3}
+    volume: 1
+    pitch: 0
+    source: {fileID: 0}
+  - name: Woosh
+    clip: {fileID: 8300000, guid: dff79381434d835479a01dd1fd1f8f6e, type: 3}
+    volume: 1
+    pitch: 0.1
+    source: {fileID: 0}
+  - name: ManDead
+    clip: {fileID: 8300000, guid: e0e41db1f89e1714e9fd6537e9d06ec5, type: 3}
+    volume: 1
+    pitch: 0
+    source: {fileID: 0}
+  - name: ManHit
+    clip: {fileID: 8300000, guid: 85d457c96ce4fa643b303b2fd77e8b54, type: 3}
+    volume: 1
+    pitch: 0
+    source: {fileID: 0}
+  - name: SlowMo
+    clip: {fileID: 8300000, guid: 55ea2c56ec910174f96b3480a8eeaa65, type: 3}
+    volume: 1
+    pitch: 0
+    source: {fileID: 0}
+  - name: SlowReload
+    clip: {fileID: 8300000, guid: f07a22b65cfd9db4e97e6dd5412ffff5, type: 3}
+    volume: 1
+    pitch: 0
+    source: {fileID: 0}
+  - name: Step
+    clip: {fileID: 8300000, guid: 65b0cc696c408574d806ab8d8640f44c, type: 3}
+    volume: 1
+    pitch: 0
+    source: {fileID: 0}
+  - name: CitySong
+    clip: {fileID: 8300000, guid: b20f069b129f76d4ab56d71066921ab7, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+  - name: CombatSong
+    clip: {fileID: 8300000, guid: 718f6a5faeeecd64597663b715d8c71f, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+  - name: Cyber1
+    clip: {fileID: 8300000, guid: fae2a10f146def84680c0ff437fbbc46, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+  - name: World1
+    clip: {fileID: 8300000, guid: 1536914460fef8042a4beb18b04ad899, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+--- !u!114 &2832876724156574851
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2832876724156574854}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4fb89649c36db754eaa9d6dc10fc9a0e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
